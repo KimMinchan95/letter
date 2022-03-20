@@ -12,6 +12,7 @@ body {
     align-items: center;
     font-family: sans-serif;
     background-color: #3b4049;
+    flex-direction: column;
 }
 
 .wrapper {
@@ -65,6 +66,16 @@ body {
     border-left: 150px solid transparent;
     transform-origin: top;
     transition: transform 0.25s linear;
+}
+
+.textWrapper {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.textInput {
+    width: 100%;
+    height: 30px;
 }
 
 /* Lid when envelope opens */
