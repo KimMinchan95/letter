@@ -1,0 +1,26 @@
+{
+  "name": "letter",
+  "version": "1.0.0",
+  "description": "Coding star 강의를 보고 만든 마음 전달하기",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node src",
+    "build" : "tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimMinchan95/letter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimMinchan95/letter/issues"
+  },
+  "homepage": "https://github.com/KimMinchan95/letter#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
